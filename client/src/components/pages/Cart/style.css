@@ -1,0 +1,65 @@
+.cart-page {
+  margin-left: auto;
+  margin-right: auto;
+}
+.size span {
+  font-size: 11px;
+}
+
+.color span {
+  font-size: 11px;
+}
+
+.product-deta {
+  margin-right: 70px;
+}
+
+.gift-card:focus {
+  box-shadow: none;
+}
+
+.text-blue {
+  color: #19323c;
+}
+
+.qty i {
+  font-size: 11px;
+}
+
+.btn-warning {
+  background: #a93f55;
+}
+
+.checkbtn {
+  background: transparent !important;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.text-grey {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cart-page {
+  gap: 20px;
+}
+
+.pay {
+  background-color: #f3f7f0;
+  border: none;
+}
+
+.pay:hover {
+  background-color: #f3f7f0;
+}
+/* 
+.pay:focus {
+  background-color: #f3f7f0;
+}
+
+.pay:active {
+  background-color: #f3f7f0;
+} */

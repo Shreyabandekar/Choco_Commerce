@@ -1,0 +1,86 @@
+/* Navbar gradient background and basic styling */
+.navbar-gradient {
+    background: linear-gradient(90deg, #6a1b9a, #8e24aa, #ab47bc);
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffd700; /* Golden hover effect */
+  }
+  
+  .nav-link {
+    color: #f8f9fa;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700;
+  }
+  
+  /* Badge styling for cart item count */
+  .badge {
+    font-size: 0.8rem;
+    vertical-align: top;
+  }
+  
+  /* Login/Logout button styles */
+  .btn-login, .btn-logout {
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-login {
+    background-color: #ff4081;
+    color: #fff;
+  }
+  
+  .btn-logout {
+    background-color: #ff7043;
+    color: #fff;
+  }
+  
+  .btn-login:hover {
+    background-color: #ff80ab;
+    color: #fff;
+  }
+  
+  .btn-logout:hover {
+    background-color: #ffab91;
+    color: #fff;
+  }
+  
+  /* Search form styles */
+  .search-form {
+    transition: width 0.4s ease;
+  }
+  
+  .search-input {
+    width: 180px;
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+  }
+  
+  .search-btn {
+    border-radius: 50%;
+    padding: 0.4rem 0.5rem;
+    color: #fff;
+  }
+  
+  /* Responsive search bar toggle */
+  @media (max-width: 991px) {
+    .search-form {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
