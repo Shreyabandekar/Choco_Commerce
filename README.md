@@ -2,7 +2,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/imanmansour86/choco-commerce
+   git clone https://github.com/Shreyabandekar/Choco_Commerce
    cd choco-commerce
    ```
 
